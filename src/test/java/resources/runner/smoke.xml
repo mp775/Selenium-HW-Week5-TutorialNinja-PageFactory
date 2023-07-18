@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="smokey Suite" verbose="1">
+    <groups>
+        <run>
+
+            <include name="smoke"></include>
+        </run>
+    </groups>
+    <test name="smoke Test">
+        <classes>
+            <class name="com.tutorialsninja.testsuite.TopManuTest"></class>
+            <class name="com.tutorialsninja.testsuite.LaptopAndNoteBookPageTest"></class>
+            <class name="com.tutorialsninja.testsuite.DeskTopPageTest"></class>
+            <class name="com.tutorialsninja.testsuite.AccountRegisterPageTest"></class>
+            <class name="com.tutorialsninja.testsuite.AccountLoginPageTest"></class>
+
+
+        </classes>
+    </test>
+</suite>
